@@ -1,27 +1,29 @@
 // routes/note_routes.js
 module.exports = function(app, db) {
     app.post('/matchjob', (req, res) => {
-    var profilePersonality = req.body.personality
+    var profilePersonality = req.body.personality;
     //console.log(req.body.personality)
-        
-    let jobs = require('./jobs.json');
-        
-    for(i=0; i < jobs.job.length; i++)
+    
+    var jobs = require('./jobs.json');
+    
+    var jobsCopy = JSON.parse(JSON.stringify(jobs));
+
+    for(i=0; i < jobsCopy.job.length; i++)
     {
-        jobs.job[i].Openness = Math.abs(profilePersonality[0].percentile-jobs.job[i].Openness);
-        jobs.job[i].Conscientiousness = Math.abs(profilePersonality[0].percentile-jobs.job[i].Conscientiousness);
-        jobs.job[i].Extraversion = Math.abs(profilePersonality[0].percentile-jobs.job[i].Extraversion);
-        jobs.job[i].Agreeableness = Math.abs(profilePersonality[0].percentile-jobs.job[i].Agreeableness);
-        jobs.job[i].Emotional_range = Math.abs(profilePersonality[0].percentile-jobs.job[i].Emotional_range);
+        jobsCopy.job[i].Openness = Math.abs(profilePersonality[0].percentile-jobsCopy.job[i].Openness);        
+        jobsCopy.job[i].Conscientiousness = Math.abs(profilePersonality[1].percentile-jobsCopy.job[i].Conscientiousness);
+        jobsCopy.job[i].Extraversion = Math.abs(profilePersonality[2].percentile-jobsCopy.job[i].Extraversion);
+        jobsCopy.job[i].Agreeableness = Math.abs(profilePersonality[3].percentile-jobsCopy.job[i].Agreeableness);
+        jobsCopy.job[i].Emotional_range = Math.abs(profilePersonality[4].percentile-jobsCopy.job[i].Emotional_range);
 
-        jobs.job[i].total = jobs.job[i].Openness+jobs.job[i].Conscientiousness+jobs.job[i].Extraversion+jobs.job[i].Agreeableness+jobs.job[i].Emotional_range;
+        jobsCopy.job[i].total = jobsCopy.job[i].Openness+jobsCopy.job[i].Conscientiousness+jobsCopy.job[i].Extraversion+jobsCopy.job[i].Agreeableness+jobsCopy.job[i].Emotional_range;
 
-        //console.log(jobs.job[i].Job_Title +" : "+ jobs.job[i].total);
+        //console.log(jobsCopy.job[i].Job_Title +" : "+ jobsCopy.job[i].total);
     }
-        
+    
     var sortable = [];
-    for (var job in jobs.job) {
-        sortable.push([jobs.job[job].Job_Title, jobs.job[job].total]);
+    for (var job in jobsCopy.job) {
+        sortable.push([jobsCopy.job[job].Job_Title, jobsCopy.job[job].total, jobsCopy.job[job].description]);
     }
     
     //console.log(jobs);
@@ -40,7 +42,7 @@ module.exports = function(app, db) {
        var colCurrentJob = {};
        colCurrentJob.job_title = sortable[job][0];
        colCurrentJob.correlation = sortable[job][1];
-       colCurrentJob.description = sortable[job][0];
+       colCurrentJob.description = sortable[job][2];
        
        colJobs.push(colCurrentJob);
        
