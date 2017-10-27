@@ -1,22 +1,13 @@
 {
   "job": [
     {
-        "Job_Title":"Advertising",
-        "Openness": 0.9,
-        "Conscientiousness": 0.7,
-        "Extraversion": 0.9,
-        "Agreeableness": 0.7,
-        "Emotional_range": 0.7,
-        "description":"Advertising description"
-    },
-    {
-        "Job_Title":"Artist",
+        "Job_Title":"Sign Maker",
         "Openness": 0.9,
         "Conscientiousness": 0.6,
         "Extraversion": 0.9,
         "Agreeableness": 0.5,
         "Emotional_range": 0.9,
-        "description":"Artist description"
+        "description":"Sign Maker needed for local workshop."
     },
     {
         "Job_Title":"Researcher",
@@ -25,7 +16,7 @@
         "Extraversion": 0.2,
         "Agreeableness": 0.9,
         "Emotional_range": 0.5,
-        "description":"Researcher description"
+        "description":"Researcher needed for local University"
     },
     {
         "Job_Title":"Teacher",
@@ -34,16 +25,16 @@
         "Extraversion": 0.9,
         "Agreeableness": 0.7,
         "Emotional_range": 0.6,
-        "description":"Teacher description"
+        "description":"We are a local Primary school looking to recuirt a professionally minded Teacher"
     },
     {
-        "Job_Title":"Teaching_Assistant",
+        "Job_Title":"Teaching Assistant",
         "Openness": 0.5,
         "Conscientiousness": 0.9,
         "Extraversion": 0.5,
         "Agreeableness": 0.4,
-        "Emotional_range": 0.6,
-        "description":"Teaching_Assistant description"
+        "Emotional_range": 0.6, 
+        "description":"We are currently recruiting a Teaching Assistant for an ongoing assignment in a school.  We work with a large majority of schools, covering the Primary, Secondary and Special Needs Schools."
    },
     {
         "Job_Title":"Sales",
@@ -52,16 +43,16 @@
         "Extraversion": 0.9,
         "Agreeableness": 0.8,
         "Emotional_range": 0.3,
-        "description":"Sales description"
+        "description":"Speaking to clients who are placing orders. To include all aspects of account management, customer service & support, as well as efficiently responding to customer inquiries. You will need a Pleasant telephone manner, be Enthusiastic and have previous experience in a similar role involving Telemarketing, up selling or proactive calls."
    },
     {
-        "Job_Title":"Call_Centre",
+        "Job_Title":"Contact Centre Advisor",
         "Openness": 0.2,
         "Conscientiousness": 0.2,
         "Extraversion": 0.9,
         "Agreeableness": 0.4,
         "Emotional_range": 0.3,
-        "description":"Call Centre description"
+        "description":"We are seeking someone to work in our Contact Centre which operates Monday to Friday 8.30-4.30. The role is telephone and desk based; receiving calls from patients to make hospital appointments"
    },
           {
         "Job_Title":"Nurse",
@@ -70,17 +61,70 @@
         "Extraversion": 0.6,
         "Agreeableness": 0.4,
         "Emotional_range": 0.7,
-        "description":"Nurse description"
+        "description":"We are currently looking for a Nurse on behalf of a 40 bedded nursing and residential home that provides support to those who require nursing and dementia care."
    },
           {
-        "Job_Title":"IT_Worker",
+        "Job_Title":"IT Worker",
         "Openness": 0.2,
         "Conscientiousness": 0.5,
         "Extraversion": 0.3,
         "Agreeableness": 0.9,
         "Emotional_range": 0.2,
-        "description":"IT Worker description"
+        "description":"We are looking to recruit an IT Support Technician to join their successful company. This is a new role within the company, the purpose of the role will be to run the day to day IT responsibilities for the company"
+   },
+          {
+        "Job_Title":"Vehicle Technician",
+        "Openness": 0.2,
+        "Conscientiousness": 0.8,
+        "Extraversion": 0.3,
+        "Agreeableness": 0.5,
+        "Emotional_range": 0.1,
+        "description":"We are looking for Vehicle Technicians  to cover short and long term contracts. Whether you're semi-retired, freelance, self-employed, just looking for temporary work to run alongside what you are currently doing, or just want weekends - we have work to suit everyone!"
+   },
+          {
+        "Job_Title":"Field Sales Advisor",
+        "Openness": 0.1,
+        "Conscientiousness": 0.4,
+        "Extraversion": 0.9,
+        "Agreeableness": 0.8,
+        "Emotional_range": 0.7,
+        "description":"Are you an enthusiastic and outgoing and are you looking for a new opportunity? If so then The Provider (Gas & Electricity) are interested in hearing from you. The Provider are an energy supplier offering prepayment/pay as you go and Smart Meter customers a competitive tariff and excellent UK customer care. Using our bespoke iPad App and working door to door, you will be able to show potential customers what we have to offer as well as being able to offer all new customers a smart meter."
+   },
+        {
+        "Job_Title":"Nursery Nurse",
+        "Openness": 0.5,
+        "Conscientiousness": 0.9,
+        "Extraversion": 0.6,
+        "Agreeableness": 0.4,
+        "Emotional_range": 0.6, 
+        "description":"Nursery Nurse to work at a successful day nursery. This nursery is easy accessible for public transport users. They are looking for somebody who can cover occasional shifts which includes 8 till 5 or 9 till 6 shifts, on an ad-hoc basis. You must ensure that all children attending the setting receive high quality care, are kept safe and receive rich and stimulating learning experiences which meet their individual needs."
+   },
+          {
+        "Job_Title":"IT Support Assistant",
+        "Openness": 0.2,
+        "Conscientiousness": 0.6,
+        "Extraversion": 0.6,
+        "Agreeableness": 0.9,
+        "Emotional_range": 0.3,
+        "description":"Our client is looking for an enthusiastic person to join their IT Department to provide a day to day administration and support function.  The main responsibilities of this role will be to administer the call logging system, provide advice on the use of hardware, software and telephony, to create and distribute price files and to assist with all aspects of IT support and administration."
+    },
+    {
+        "Job_Title":"Retail Assistant",
+        "Openness": 0.1,
+        "Conscientiousness": 0.3,
+        "Extraversion": 0.8,
+        "Agreeableness": 0.8,
+        "Emotional_range": 0.4,
+        "description":"We are currently recruiting onbehalf of a mobile phone company for a retail assistant position. The position s around 16 hours per week but may vary due to business levels. This role will require you to be available to work varied hours throughout the week."
+   },
+    {
+        "Job_Title":"Residential Sales Person",
+        "Openness": 0.2,
+        "Conscientiousness": 0.3,
+        "Extraversion": 0.9,
+        "Agreeableness": 0.9,
+        "Emotional_range": 0.3,
+        "description":"We are looking to recruit Sales People to join our ever growing successful Sales Team to sell our luxury homes to customers all over the UK. This is an exciting opportunity to get into with an ambitious growing company."
    }
-      
   ]
 }
