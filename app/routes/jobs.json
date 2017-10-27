@@ -1,0 +1,77 @@
+{
+  "job": [
+    {
+        "Job_Title":"Advertising",
+        "Openness": 0.9,
+        "Conscientiousness": 0.7,
+        "Extraversion": 0.9,
+        "Agreeableness": 0.7,
+        "Emotional_range": 0.7
+    },
+    {
+        "Job_Title":"Artist",
+        "Openness": 0.9,
+        "Conscientiousness": 0.6,
+        "Extraversion": 0.9,
+        "Agreeableness": 0.5,
+        "Emotional_range": 0.9
+    },
+    {
+        "Job_Title":"Researcher",
+        "Openness": 0.7,
+        "Conscientiousness": 0.9,
+        "Extraversion": 0.2,
+        "Agreeableness": 0.9,
+        "Emotional_range": 0.5
+    },
+    {
+        "Job_Title":"Teacher",
+        "Openness": 0.3,
+        "Conscientiousness": 0.9,
+        "Extraversion": 0.9,
+        "Agreeableness": 0.7,
+        "Emotional_range": 0.6
+    },
+    {
+        "Job_Title":"Teaching_Assistant",
+        "Openness": 0.5,
+        "Conscientiousness": 0.9,
+        "Extraversion": 0.5,
+        "Agreeableness": 0.4,
+        "Emotional_range": 0.6
+   },
+    {
+        "Job_Title":"Sales",
+        "Openness": 0.1,
+        "Conscientiousness": 0.3,
+        "Extraversion": 0.9,
+        "Agreeableness": 0.8,
+        "Emotional_range": 0.3
+   },
+    {
+        "Job_Title":"Call_Centre",
+        "Openness": 0.2,
+        "Conscientiousness": 0.2,
+        "Extraversion": 0.9,
+        "Agreeableness": 0.4,
+        "Emotional_range": 0.3
+   },
+          {
+        "Job_Title":"Nurse",
+        "Openness": 0.6,
+        "Conscientiousness": 0.9,
+        "Extraversion": 0.6,
+        "Agreeableness": 0.4,
+        "Emotional_range": 0.7
+   },
+          {
+        "Job_Title":"IT_Worker",
+        "Openness": 0.2,
+        "Conscientiousness": 0.5,
+        "Extraversion": 0.3,
+        "Agreeableness": 0.9,
+        "Emotional_range": 0.2
+   }
+      
+  ]
+}
